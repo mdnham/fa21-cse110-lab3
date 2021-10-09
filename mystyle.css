@@ -10,6 +10,32 @@ body {
     color: #E9E7F5;
 }
 
+section {
+    margin-top: 5pt;
+    margin-bottom: 5pt;
+    margin-left: 5pt;
+    margin-right: 5pt;
+
+    padding-top: 1pc;
+    padding-bottom: 1pc;
+    padding-left: 1pc;
+    padding-right: 1pc;
+
+    border-style: dashed;
+    border-color: #DBC9FF; /* Eriri's eye color */
+    border-width: 1px;
+    border-radius: 5px;
+}
+
+form {
+    margin: 1vh 1vw 1vh 1vw;
+    padding: 1vmin 1vw 1vmin 1vw;
+}
+
+div {
+    margin: auto;
+}
+
 /* Topic color: Eriri's streaks' color */
 h3.topics {
     color: hsl(185,50%,70%);
