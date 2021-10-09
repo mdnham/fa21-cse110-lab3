@@ -43,6 +43,11 @@ div {
     margin: auto; /* honestly, this does nothing OR I'm blind */
 }
 
+/* The names deserved "some" love/fun */
+.s {
+    color: mistyrose;
+}
+
 /* Topic color: Eriri's streaks' color */
 h3.topics {
     color: hsl(185,50%,70%);
