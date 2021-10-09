@@ -74,3 +74,11 @@ div > input[name="name"], #interesthing, option ~ option {
 h1 {
     position: static; /* everything else messes up the layout :sobs: */
 }
+
+button:active {
+    color: rgb(82,82,105);
+}
+
+a:hover {
+    color: rgb(190,0,60);
+}
