@@ -39,6 +39,8 @@ div {
 /* Topic color: Eriri's streaks' color */
 h3.topics {
     color: hsl(185,50%,70%);
+    position: relative;
+    left: 20px;
 }
 
 h4 {
@@ -67,4 +69,8 @@ div > input[name="name"], #interesthing, option ~ option {
 
 #goaway {
     display: none;
+}
+
+h1 {
+    position: static; /* everything else messes up the layout :sobs: */
 }
