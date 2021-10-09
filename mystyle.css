@@ -45,7 +45,7 @@ h4 {
     text-decoration: underline;
 }
 
-#drabble {
+h4, p, form {
     text-align: center;
 }
 
@@ -57,8 +57,14 @@ details video {
 h4 + img {
     height: 30%;
     width: 30%;
+    display: block;
+    margin: 0 auto;
 }
 
 div > input[name="name"], #interesthing, option ~ option {
     color: black;
+}
+
+#goaway {
+    display: none;
 }
