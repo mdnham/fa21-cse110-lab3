@@ -10,6 +10,7 @@ body {
     color: #E9E7F5;
 }
 
+/* Messing around with the main elements */
 section {
     margin-top: 5pt;
     margin-bottom: 5pt;
@@ -27,62 +28,74 @@ section {
     border-radius: 5px;
 }
 
+/* Spacing out the survey */
 form {
     margin: 1vh 1vw 1vh 1vw;
     padding: 1vmin 1vw 1vmin 1vw;
+
+    display: grid;
+    grid-template-columns: 45vw 45vw;
+    grid-template-rows: repeat(4, 8vh [row-start]);
+    row-gap: 3vh;
 }
 
 div {
-    margin: auto;
+    margin: auto; /* honestly, this does nothing OR I'm blind */
 }
 
 /* Topic color: Eriri's streaks' color */
 h3.topics {
     color: hsl(185,50%,70%);
-    position: relative;
+    position: relative; /* Pushing this a little more right */
     left: 20px;
 }
 
 h4 {
-    text-decoration: underline;
+    text-decoration: underline; /* The Media Headers can be a little fancy */
 }
 
-h4, p, form {
+/* ...must center as much as I can */
+h4, p, form, #survey {
     text-align: center;
 }
 
+/* switched from HTML to CSS */
 details video {
     max-width: 300px;
     min-width: 150px;
 }
 
+/* Brought back original picture so I could implement Sizing */
 h4 + img {
     height: 30%;
     width: 30%;
-    display: block;
+    display: block; /* centers the image */
     margin: 0 auto;
 }
 
+/* We're blind, so got to make this more visible */
 div > input[name="name"], #interesthing, option ~ option {
     color: black;
 }
 
 #goaway {
-    display: none;
+    display: none; /* Felt too private to ask */
 }
 
 h1 {
     position: static; /* everything else messes up the layout :sobs: */
 }
 
+/* Same color as BG */
 button:active {
     color: rgb(82,82,105);
 }
 
 a:hover {
-    color: rgb(190,0,60);
+    color: rgb(190,0,60); /* Leo's eye color */
 }
 
+/* It just got more unevenly spaced to be honest */
 #death {
     display: flex;
     flex-direction: column;

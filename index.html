@@ -226,12 +226,11 @@
 
     <hr>
 
+    <h2 id="survey">Reader Survey</h2>
     <form>
-        <h2>Reader Survey</h2>
         <div>
             Name: <input type="text" name="name">
         </div>
-        <br />
         <div>
             <fieldset>
                 <legend>Gender</legend>
@@ -240,22 +239,18 @@
                 <input type="radio" id="secret" name="gender"> Prefer not to say
             </fieldset>
         </div>
-        <br />
         <div id="goaway">
             Date of Birth: <input type="date" name="birthdate">
         </div>
-        <br />
         <div>
             Was this interesting?
             <input type="checkbox" id="yes" name="interesting"> Yes
             <input type="checkbox" id="no" name="interesting"> No
         </div>
-        <br />
         <div>
             If yes, what was interesting?<br>
             <textarea id=interesthing name="interesting">I really liked...</textarea>
         </div>
-        <br />
         <div>
             Who do you want to learn more about?
             <input list="charas" id="chara-choice" name="chara-choice" />
@@ -264,7 +259,6 @@
                 <option value="Eriri">
             </datalist>
         </div>
-        <br />
         <div>
             What would you like us to discuss in the next meeting?
             <select id="topics" name="discussion">
@@ -274,7 +268,6 @@
                 <option value="idc">I don't care</option>
             </select>
         </div>
-        <br />
         <div>
             <button type="button" name="fakesubmit">Submit</button>
         </div>
