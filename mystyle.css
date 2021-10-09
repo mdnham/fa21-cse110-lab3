@@ -1,0 +1,16 @@
+/* CSS external style sheet for index.html */
+
+/* BG color: Leo's hair color */
+body {
+    background-color: rgb(82,82,105);
+}
+
+/* Default text color: Eriri's hair color */
+* {
+    color: #E9E7F5;
+}
+
+/* Topic color: Eriri's streaks' color */
+h3.topics {
+    color: hsl(185,50%,70%);
+}
