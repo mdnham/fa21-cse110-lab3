@@ -102,3 +102,10 @@ a:hover {
     justify-content: flex-start;
     gap: 10px;
 }
+
+/* If screen size is at most 600 pixels, don't load the picture(s); it might be too powerful */
+@media screen and (max-width: 600px) {
+    img {
+        display: none;
+    }
+}
