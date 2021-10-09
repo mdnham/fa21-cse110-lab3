@@ -40,3 +40,25 @@ div {
 h3.topics {
     color: hsl(185,50%,70%);
 }
+
+h4 {
+    text-decoration: underline;
+}
+
+#drabble {
+    text-align: center;
+}
+
+details video {
+    max-width: 300px;
+    min-width: 150px;
+}
+
+h4 + img {
+    height: 30%;
+    width: 30%;
+}
+
+div > input[name="name"], #interesthing, option ~ option {
+    color: black;
+}
