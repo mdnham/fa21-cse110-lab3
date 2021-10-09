@@ -82,3 +82,10 @@ button:active {
 a:hover {
     color: rgb(190,0,60);
 }
+
+#death {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10px;
+}
